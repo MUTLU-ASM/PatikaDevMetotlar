@@ -57,4 +57,19 @@ public int ArttırVeTopla (ref int x, ref int y)
 }
 
 ---
+
+# Metot Overloading ve Out Parametre Kullanımı
+# Metot Overloading Nedir?
+
+Method overloading yani metotların aşırı yüklenmesi metot imzasının değiştirilerek aynı isimdeki metodun birden farklı versiyonun yaratılmasıdır.
+
+* ÖNEMLİ : Geri dönüş tipi metot imzasına dahil değildir. Yani sadece geri dönüş tipini değiştirerek bir metodu aşırı yükleyemeyiz. Derleyici hata verecektir.
+
+# Out ve Ref Parametre Kullanımı
+Out anahtar kelimesi ref anahtar kelimesi ile aynı işi yapıyor diyebiliriz. Arada sadece birkaç fark var.
+
+# Out Kullanımının Özellikleri:
+
+Out olarak kullanılmak istenen değişken önüne mutlaka "out" yazılmalıdır.
+out değişkeninin bir ilk değeri olmak zorunda değildir. Hatırlarsanız bu ref kullanırken zorunluydu.
 www.patika.dev
