@@ -11,8 +11,11 @@ Söz dizimi ise aşağıdaki gibidir:
 ---
 
 erişim_belirteci geri_donus_tipi metot_adi(argüman/parametre)
+
 	{
+	
 		//komutlar;
+		
 	}
   
 ---
