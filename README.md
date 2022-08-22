@@ -11,11 +11,8 @@ Söz dizimi ise aşağıdaki gibidir:
 ---
 
 erişim_belirteci geri_donus_tipi metot_adi(argüman/parametre)
-
 	{
-	
 		//komutlar;
-		
 	}
   
 ---
@@ -39,8 +36,12 @@ Referans olarak iletilmek istenen değişkenin önüne "ref" yazılmalıdır.
 ref olarak metoda verilen değişkenin mutlaka bir başlangıç değeri olmak zorundadır.
 Örnek ref kullanımı ise şu şekildedir :
 
+---
+
 int x = 3;
+
 int y = 4;
+
 int sonuc = instance.ArttırVeTopla(ref x, ref y);
 
 public int ArttırVeTopla (ref int x, ref int y)
